@@ -1,0 +1,22 @@
+.test{
+  background-color: white;
+}
+.test svg g {
+  fill-opacity: 0.4;
+}
+.test svg g:hover {
+  fill-opacity: 1;
+}
+.test svg g:hover text {
+  fill-opacity: 1;
+}
+.test svg g polygon {
+  stroke: black;
+  stroke-width: 0.3;
+  transition: fill-opacity 0.25s;
+}
+.test svg g text {
+  font-size: 0.3em;
+  fill: black;
+  fill-opacity: 1;
+}
